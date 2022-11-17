@@ -21,7 +21,7 @@ const HeroBanner = ({ heroBanner }) => {
             <button type="button">{heroBanner.buttonText}</button>
           </Link>
           <div className="desc">
-            <h1>Description</h1>
+            <h2>Description</h2>
             <p>{heroBanner.desc}</p>
           </div>
         </div>
